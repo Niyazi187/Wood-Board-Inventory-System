@@ -153,26 +153,3 @@ def selling_boards(board_id, customer_id, count):
         customer.boards_bought += count
         board.count = board.count - count
         print(f"Board selling!\n Boards left: {board.count}")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
